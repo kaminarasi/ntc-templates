@@ -12,5 +12,4 @@ Value name (\S+)
 
 Start
 # add policy patset esma_ips_saris
- #^add server ${name} ${ServerAddress}( -state ${ServerState}| -comment \"${comment}\"|${NotParsed}*)* -> Next.Record
   ^add policy patset ${name}* -> Next.Record
