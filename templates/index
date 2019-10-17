@@ -11,6 +11,14 @@
 #
 Template, Hostname, Platform, Command
 
+#citrix_adc_show_servers.template, .*, citrix_adc, sh[[ow]] server
+citrix_adc_add_server.template, .*, citrix_adc, add server
+#citrix_adc_show_services.template, .*, citrix_adc, sh[[ow]] services
+citrix_adc_add_service.template, .*, citrix_adc, add service
+#citrix_adc_show_lbvservers.template, .*, citrix_adc, sh[[ow]] lbvservers
+citrix_adc_add_lb_vserver.template, .*, citrix_adc, add lb vserver
+citrix_adc_add_policy_patset.template, .*, citrix_adc, add policy patset
+
 alcatel_aos_show_vlan.template, .*, alcatel_aos, show vlan
 
 alcatel_sros_show_router_bgp_routes_vpn-ipv4.template, .*, alcatel_sros, sh[[ow]] router bgp rou[[tes]] vpn-ipv4
@@ -277,10 +285,6 @@ cisco_xr_show_version.template, .*, cisco_xr, sh[[ow]] ver[[sion]]
 cisco_xr_show_hsrp.template, .*, cisco_xr, sh[[ow]] hs[[rp]]
 cisco_xr_show_bgp.template, .*, cisco_xr, sh[[ow]] bg[[p]]
 
-citrix_adc_show_servers.template, .*, citrix_adc, sh[[ow]] server
-citrix_adc_show_services.template, .*, citrix_adc, sh[[ow]] services
-citrix_adc_show_lbvservers.template, .*, citrix_adc, sh[[ow]] lbvservers
-citrix_adc_add_policy_patset.template, .*, citrix_adc, sh[[ow]] patset
 
 dell_force10_show_vlan_brief.template, .*, dell_force10, sh[[ow]] vl[[an]] br[[ief]]
 dell_force10_show_version.template, .*, dell_force10, sh[[ow]] ver[[sion]]

@@ -5,11 +5,7 @@
 # Date: 2018-08-18
 #
 Value name (\S+)
-#Value ipaddress (\S+)
-#Value state (\S+)
-#Value comment (.+)
-#Value NotParsed (.+)
 
-Start
 # add policy patset esma_ips_saris
+Start
   ^add policy patset ${name}* -> Next.Record
